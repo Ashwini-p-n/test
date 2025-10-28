@@ -30,7 +30,7 @@ moengage.initialize({
     app_id: MOENGAGE_APP_ID,
     cluster: 'DC_3',
     // Specify the path where your bundler/server puts the SW file
-    sw_path: "public/serviceworker.js", 
+    sw_path: "/serviceworker.js", 
     enableSPA: true
 });
 
